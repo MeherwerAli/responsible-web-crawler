@@ -32,6 +32,8 @@ responsible-crawler \
 
 Use a URL you own or are authorized to crawl. The command writes one JSON object per fetched HTML page, followed by a summary object.
 
+Versioned GitHub Releases provide a wheel, source distribution, and SHA-256 checksums. Download a wheel from the [Releases page](https://github.com/MeherwerAli/responsible-web-crawler/releases), then install it with `python -m pip install ./responsible_web_crawler-<version>-py3-none-any.whl`.
+
 ```json
 {
   "url": "https://docs.example.org/guide",
