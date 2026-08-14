@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "responsible-web-crawler"
+version = "0.1.0"
+description = "A bounded, robots-aware, same-origin web crawler built with the Python standard library."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "Meherwer Ali" }
+]
+dependencies = []
+
+[project.scripts]
+responsible-crawler = "responsible_web_crawler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
